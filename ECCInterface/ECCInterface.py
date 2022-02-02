@@ -4,7 +4,7 @@ from cryptography.hazmat.primitives import hashes
 
 
 def generate_keys():
-    private_key = ec.generate_private_key(ec.SECP384R1)
+    private_key = ec.generate_private_key(ec.SECP384R1())
     public_key = private_key.public_key()
     return private_key, public_key
 
