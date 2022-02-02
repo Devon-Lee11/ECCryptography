@@ -19,5 +19,4 @@ def test_sign_with_file():
 
 
 def test_verify_data_with_file():
-    verified_data = verify_data('data.txt', signed_document, public_key)
-    print(verified_data)
+    print(verify_data('data.txt', signed_document, public_key))
