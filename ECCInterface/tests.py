@@ -1,4 +1,4 @@
-from RsaInterface import generate_keys, sign, verify_data
+from ECCInterface import generate_keys, sign, verify_data
 private_key, public_key = generate_keys()
 test_array = [1, 2, 3]
 
