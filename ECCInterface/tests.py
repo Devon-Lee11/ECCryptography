@@ -20,3 +20,7 @@ def test_sign_with_file():
 
 def test_verify_data_with_file():
     print(verify_data('data.txt', signed_document, public_key))
+
+
+def test_keys_were_generated():
+    print(public_key, private_key)
