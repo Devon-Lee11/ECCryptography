@@ -11,7 +11,7 @@ def generate_keys():
 
 def sign(document, private_key):
     if not isinstance(document, str):
-        return False
+        return None
     document = bytes(document, 'utf-8')
     signature = private_key.sign(
         document,

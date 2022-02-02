@@ -5,7 +5,7 @@ signed_document = sign('data.txt', private_key)
 
 
 def test_sign_with_array_data():
-    print('expected false')
+    print('expected None')
     print(sign(test_array, private_key))
 
 
