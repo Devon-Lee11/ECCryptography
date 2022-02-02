@@ -34,12 +34,3 @@ def verify_data(document, signature, public_key):
     except InvalidSignature:
         return False
 
-
-
-
-
-
-
-
-
-
