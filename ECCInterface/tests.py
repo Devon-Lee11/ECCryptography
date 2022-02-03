@@ -3,8 +3,7 @@ from ECCInterface import generate_keys, sign, verify_data
 private_key, public_key = generate_keys()
 test_array = [1, 2, 3]
 signed_document = sign('data.txt', private_key)
-test_string = 'this is data'
-signed_test_string = sign(test_string, private_key)
+signed_test_string = sign('this is data', private_key)
 
 
 def test_sign_with_array_data():
